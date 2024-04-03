@@ -60,7 +60,8 @@
                 $this->kode,
                 $this->nama,
                 $this->iuran,
-                $this->diskon
+                $this->diskon,
+                $this->id
             ]);
 
             return $data->rowCount() > 0;
